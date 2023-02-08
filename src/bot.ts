@@ -40,6 +40,7 @@ export class ChatGPTBot {
 //    console.debug(`Start GPT Bot Config is:${JSON.stringify(config)}`);
 //     await this.chatGPTPool.startPools();
 //     console.debug(`🤖️ Start GPT Bot Success, ready to handle message!`);
+    
     this.ready = true;
   }
   // TODO: Add reset conversation id and ping pong
